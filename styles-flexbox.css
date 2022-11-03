@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #1E1E1E;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /*This has the same effect as adding a margin: 0 auto*/
+/*justify-content: flex-start; justify-content: flex-end;*/
+/*justify-content: space-around; justify-content: space-between;*/
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Home {
+    align-self: scretch;
+    margin-left: -200px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-left: 400px;
+}
+
+.signup {
+    margin-left: auto;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.subscribe,
+a {
+    color: #4B5454;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.header-container{
+    color: #5995DA;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.social, .logo, .subscribe {
+    align-self: center;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.photo-grid {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  
+ 
+}
+
+.first-item {
+    order: 3;
+}
+
+.last-item {
+    order: -1;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 400px;
+    height: ;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #efefef;
+    height: 200px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+
+}
+
+.footer-one,
+.footer-three {
+    background-color: #EDE7E7;
+    flex: initial;
+    width: 400px;
+}
+
+.footer-two {
+
+}
+
+.Techno ,
+.Services,
+.Technologies,
+.Contactus
+
+ {
+    margin-top: 50px;
+    list-style-type: none;
+
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+
+}
+
+.Technologies {
+
+    margin-left: 200px;
+}
+
+.Reserved {
+    background-color: #1E1E1E;
+    height: 100px;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
